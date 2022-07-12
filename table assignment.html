@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Table</title>
+ <style>
+     table{ 
+  margin: 100px auto;
+}
+table, td, th{
+  border: 3px solid black;
+  border-collapse: collapse;
+}
+td, th{
+  text-align: center;
+  padding: 10px;
+}
+th{
+  background-color: grey;
+}
+tr:nth-child(even){
+  background-color: rgb(255, 255, 230);
+}
+
+
+ </style>
+</head>
+
+<body>
+  <table>
+    <caption><h4><em>Table:Class Time Table</em></h4></caption>
+    <thead>
+      <tr>
+        <th>Day/Period</th>
+        <th>9:30-10:20</th>
+        <th>10:20-11:10</th>
+        <th>11:10-12:00</th>
+        <th>12:00-12:40</th>
+        <th>12:40-01:30</th>
+        <th>01:30-02:20</th>
+        <th>02:20-03:10</th>
+        <th>03:10-04:00</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Monday</td>
+        <td>Maths</td>
+        <td>English</td>
+        <td>Chemistry</td>
+        <td rowspan="6"><b>L<br>U<br>N<br>C<br>H</b></td>
+        <td colspan="3">Lab</td>
+<!--         <td>Lab</td>
+        <td>Lab</td> -->
+        <td>Physics</td>
+      </tr>
+      <tr>
+        <td>Tuesday</td>
+        <td colspan="3">Lab</td>
+<!--         <td>Lab</td>
+        <td>Lab</td> -->
+<!--         <td>LUNCH</td> -->
+        <td>English</td>
+        <td>Maths</td>
+        <td>Chemistry</td>
+        <td>Sports</td>
+      </tr>
+      <tr>
+        <td>Wednesday</td>
+        <td>Maths</td>
+        <td>Physics</td>
+        <td>English</td>
+<!--         <td>LUNCH</td> -->
+        <td>Chemistry</td>
+        <td colspan="3">Library</td>
+<!--         <td>Library</td>
+        <td>Library</td> -->
+      </tr>
+       <tr>
+        <td>Thursday</td>
+        <td>Maths</td>
+        <td>English</td>
+        <td>Chemistry</td>
+<!--         <td>LUNCH</td> -->
+        <td colspan="3">Lab</td>
+<!--         <td>Lab</td>
+        <td>Lab</td> -->
+        <td>Physics</td>
+      </tr>
+      <tr>
+        <td>Friday</td>
+        <td colspan="3">Lab</td>
+<!--         <td>Lab</td>
+        <td>Lab</td> -->
+<!--         <td>LUNCH</td> -->
+        <td>Maths</td>
+        <td>English</td>
+        <td>Chemistry</td>
+        <td>Physics</td>
+      </tr>
+      <tr>
+        <td>Saturday</td>
+        <td>Maths</td>
+        <td>English</td>
+        <td>Chemistry</td>
+<!--         <td>LUNCH</td> -->
+        <td colspan="3">Seminar</td>
+<!--         <td>Seminar</td>
+        <td>Seminar</td> -->
+        <td>Physics</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>
